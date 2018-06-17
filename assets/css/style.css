@@ -41,7 +41,7 @@ h1 {
 .navbar,
 .container {
   padding: 0px;
-  width: 960px;
+  /* width: 960px; */
   margin-left: auto;
   margin-right: auto;
   background: white;
@@ -59,6 +59,29 @@ h1 {
 .container {
   padding: 20px;
   margin-top: 40px;
+}
+
+.pname1,
+.pname2,
+.pname3,
+.pname4,
+.pname5,
+.pname6 {
+  margin: 0;
+  position: absolute;
+  bottom: 15%;
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  width: calc(100% - 30px);
+  padding: 10px;
+  text-align: center;
+}
+
+.portfolio1,
+.portfolio3,
+.portfolio5 {
+  margin-bottom: 20px;
 }
 
 footer {
